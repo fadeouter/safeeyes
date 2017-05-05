@@ -3,7 +3,7 @@
 
 Every 20 minutes script forces a break: disables input devices like mouse and touchpad and starts slideshow for 25 seconds.
 
-This script uses `feh` image viewer. `Man feh` to know keyboard shortcuts.
+This script uses `feh` image viewer. `man feh` to know keyboard shortcuts.
 
 **Features**
 
@@ -17,8 +17,9 @@ This script uses `feh` image viewer. `Man feh` to know keyboard shortcuts.
 
 **Limitations**
 
-Fullscreen app detection and mouse/touchpad disabling (?) Does not work with Wayland. Any other probably will.
+Fullscreen app detection and mouse/touchpad disabling (?) does not work with Wayland. All other probably will.
 
 <H2> Installation </h2>
 Before you use, create and set specific directory with images for break.
-Also, `sudo apt install xdotool feh`.
+
+Also, ``sudo apt install xdotool feh``.
